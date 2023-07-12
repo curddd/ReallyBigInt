@@ -380,6 +380,9 @@ console.log("addition");
 console.log("hex F0+FFF",add("F0","FFF",$hex_c));
 console.log("dec 13+1924",add("13","1924",$decimal_c));
 
+console.log("hex fffffffffffffffffff+fffffff",add("ffffffffffffffffffff","fffffff",$hex_c));
+console.log("hex ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",add("ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff","ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",$hex_c))
+
 console.log("substraction");
 console.log("hex FF, F", sub("FF", "F", $hex_c));
 console.log("dec","100, 9", sub(100,9, $decimal_c));
